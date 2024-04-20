@@ -1,11 +1,3 @@
-<style>
-    h1{
-        font-size:3rem
-    }
-    td{
-        border:1px solid;
-    }
-</style>
 # Typing.js
 A simple and lightweight JavaScript library for creating typing animation on web pages.
 
