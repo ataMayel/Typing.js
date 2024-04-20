@@ -1,0 +1,78 @@
+body {
+    font-family: system-ui;
+    max-width: 1000px;
+    margin: 8rem auto 3rem;
+    padding: 1rem;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+h1 {
+    font-size: 5rem;
+    height: 90px;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 1rem;
+    border-radius: 12px;
+    background-color: #f2f2f2;
+    margin: 1rem;
+    font-weight: 600;
+}
+
+.links {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.links a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 2px solid #1d1d1d;
+    color: #1d1d1d;
+}
+
+.github {
+    background: #1d1d1d;
+    color: white !important;
+}
+
+h3 {
+    margin-top: 3rem;
+}
+
+.usage {
+    margin-left: 2rem;
+}
+
+code {
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    text-wrap: nowrap;
+    overflow: auto;
+}
