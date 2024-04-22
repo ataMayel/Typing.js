@@ -1,11 +1,11 @@
 const title = new Typing('#title', {
     data: 'Typing.js',
-    speed: 100,
-    delay: 1000,
+    speed: 120,
+    delay: 2000,
     repeat: true,
     back: {
-        speed: 60,
-        delay: 10000
+        speed: 40,
+        delay: 8000
     }
 })
 
