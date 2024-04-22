@@ -5,7 +5,7 @@ const title = new Typing('#title', {
     repeat: true,
     back: {
         speed: 40,
-        delay: 8000
+        delay: 12000
     }
 })
 
